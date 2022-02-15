@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Product Service</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
+</head>
+<body>
+
+
+
+	<div class="container" style="min-height: 500px">
+
+		<div class="starter-template">
+			<h1>Product List</h1>
+
+			<div id="feedback"></div>
+			<div>
+				<form id="product-order-form">
+					<table id="product-table" class="table">
+						<thead>
+							<tr>
+								<th>Product Name</th>
+								<th>Product Price</th>
+								<th>Product Box Price</th>
+								<th>Number Of Item</th>
+								<th>Number Of Items In Box</th>
+								<th>Number Of Item Order</th>
+								<th>Order Price</th>
+							</tr>
+						</thead>
+						<tbody></tbody>
+					</table>
+					<input type="submit" value="Calculate Price">
+
+				</form>
+
+
+			</div>
+
+
+		</div>
+
+	</div>
+
+
+	<script type="text/javascript" src="webjars/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jsonSerializer.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
